@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Chetours Travels — a global travel blog inspiring adventures through destinations, stories, and travel tips."
+    />
+    <meta
+      name="keywords"
+      content="travel, blog, chetours, destinations, adventure, tourism, Che"
+    />
+    <meta name="author" content="Che" />
+    <meta property="og:title" content="Chetours Travel Blog" />
+    <meta
+      property="og:description"
+      content="Explore breathtaking destinations and inspiring travel stories."
+    />
+    <meta property="og:image" content="images/hero.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#004aad" />
+    <link rel="icon" href="images/logo.png" type="image/png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Chetours Travels</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script defer src="../js/main.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">🌍 Chetours</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="menu-toggle">☰</button>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero contact-hero">
+      <img
+        src="https://picsum.photos/1600/600?random=80"
+        alt="Contact us travel photo"
+      />
+      <div class="overlay">
+        <h1>Get in Touch</h1>
+        <p>
+          We’d love to hear from you — let’s plan your next adventure together!
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p><strong>Email:</strong> hello@chetours.com</p>
+          <p><strong>Phone:</strong> +254 700 123 456</p>
+          <p><strong>Location:</strong> Nairobi, Kenya</p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <h2>Send Us a Message</h2>
+
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Your full name"
+          />
+
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Your email address"
+          />
+
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Type your message..."
+          ></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <h2>Find Us</h2>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.868729511181!2d36.82194631526094!3d-1.2920650359992692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10f74e06c9f9%3A0x582eea4efac3e1f!2sNairobi!5e0!3m2!1sen!2ske!4v1698325041539!5m2!1sen!2ske"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Chetours Travels | Designed by Che</p>
+    </footer>
+  </body>
+</html>

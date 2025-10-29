@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Chetours Travels — a global travel blog inspiring adventures through destinations, stories, and travel tips."
+    />
+    <meta
+      name="keywords"
+      content="travel, blog, chetours, destinations, adventure, tourism, Che"
+    />
+    <meta name="author" content="Che" />
+    <meta property="og:title" content="Chetours Travel Blog" />
+    <meta
+      property="og:description"
+      content="Explore breathtaking destinations and inspiring travel stories."
+    />
+    <meta property="og:image" content="images/hero.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#004aad" />
+    <link rel="icon" href="images/logo.png" type="image/png" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ExploreWorld — Travel Blog</title>
+    <meta
+      name="description"
+      content="ExploreWorld — destination guides, travel stories and tips for curious travelers."
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="ExploreWorld home">
+          <span class="logo">EW</span>
+          <span class="brand-name">ExploreWorld</span>
+        </a>
+
+        <nav id="main-nav" class="nav" role="navigation" aria-label="Main menu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button
+          id="menu-toggle"
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-controls="main-nav"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile nav (revealed on small screens) -->
+    <div id="mobile-nav" class="mobile-nav" aria-hidden="true">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Main -->
+    <main id="main" class="container">
+      <!-- Hero -->
+      <section class="hero reveal" aria-labelledby="hero-heading">
+        <div class="hero-content">
+          <h1 id="hero-heading">ExploreWorld — Notes from the road</h1>
+          <p class="lead">
+            Practical travel guides, photo stories, and tips for curious
+            explorers. Slow travel, local food, and offbeat places.
+          </p>
+          <p class="cta-row">
+            <a class="btn" href="destinations.html">Explore destinations</a>
+            <a class="btn btn-ghost" href="blog.html">Read the blog</a>
+          </p>
+        </div>
+
+        <div class="hero-image" role="img" aria-label="Scenic mountain view">
+          <!-- Replace hero.jpg with your image -->
+          <img src="../images/hero.jpg" alt="Scenic mountain view" />
+        </div>
+      </section>
+
+      <!-- Featured Destinations -->
+      <section class="section reveal" aria-labelledby="featured-heading">
+        <h2 id="featured-heading">Featured Destinations</h2>
+        <div class="grid">
+          <article class="card">
+            <img src="../images/coastal.jpg" alt="Coastal cliffs" />
+            <div class="card-body">
+              <h3>Wild Coast, Portugal</h3>
+              <p class="text-muted">
+                Cliffside hikes, tiny fishing towns and fresh seafood.
+              </p>
+              <a href="destinations.html" class="small-link">Learn more →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="../images/north.jpg" alt="Highlands valley" />
+            <div class="card-body">
+              <h3>Northern Highlands</h3>
+              <p class="text-muted">
+                Remote trails, woolly sheep and starry skies.
+              </p>
+              <a href="destinations.html" class="small-link">Learn more →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="../images/sunset.jpg" alt="City rooftop sunset" />
+            <div class="card-body">
+              <h3>City Weekender</h3>
+              <p class="text-muted">
+                48-hour food and culture itineraries for busy explorers.
+              </p>
+              <a href="blog.html" class="small-link">Read the story →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Latest Posts -->
+      <section class="section reveal" aria-labelledby="latest-heading">
+        <h2 id="latest-heading">Latest posts</h2>
+        <div class="grid posts-grid">
+          <article class="post-card">
+            <img src="../images/port.jpg" alt="Coastal trail thumbnail" />
+            <div class="post-body">
+              <h3><a href="blog.html#post-1">A Guide to Coastal Trails</a></h3>
+              <p class="text-muted">
+                Trail tips, maps and where to sleep for different budgets.
+              </p>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img src="../images/market.jpg" alt="Market alley thumbnail" />
+            <div class="post-body">
+              <h3><a href="blog.html#post-2">Weekend in Marrakech</a></h3>
+              <p class="text-muted">
+                Markets, riads and tagine etiquette — a short guide.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Newsletter CTA -->
+      <section
+        class="section reveal newsletter"
+        aria-labelledby="newsletter-heading"
+      >
+        <h2 id="newsletter-heading">Join the newsletter</h2>
+        <p class="text-muted">
+          Monthly tips and new posts — no spam. (Demo sign-up)
+        </p>
+        <form
+          id="newsletter-form"
+          class="newsletter-form"
+          onsubmit="event.preventDefault(); document.getElementById('nl-status').textContent = 'Thanks — demo sign-up received.';"
+        >
+          <label for="nl-email" class="sr-only">Email</label>
+          <input
+            id="nl-email"
+            name="email"
+            type="email"
+            placeholder="you@example.com"
+            required
+          />
+          <button class="btn" type="submit">Subscribe</button>
+          <span
+            id="nl-status"
+            class="small text-muted"
+            aria-live="polite"
+          ></span>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>ExploreWorld</strong>
+          <p class="small text-muted">Travel blog & guides</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="blog.html">Blog</a>
+        </nav>
+      </div>
+      <div class="container copyright">
+        <small>© <span id="year"></span> ExploreWorld — Built by you</small>
+      </div>
+    </footer>
+
+    <script>
+      // small runtime values
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
